@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.width-50{
+    width: 50%;
+}
+
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+
+.profile-text{
+    float: left;
+    /* padding: 15px; */
+    margin-top: 12%;
+}
+.profile-text h1{
+    font-size: 40px;
+    padding: 10px;
+    border-left: 5px solid #ff5959;
+}
+.profile-text h1 span, .corona-app-text h1 span{
+    color: #ffad5a;
+}
+
+.profile-text p{
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.profile-text a{
+    margin: 10px;
+    padding: 10px 15px;
+    background: #ff5959;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.profile-image{
+    float: right;
+    text-align: center;
+}
+
+.profile-image img{
+    width: 60%
+}
+
+.clearfix{
+    clear: both;
+}
+
+section{
+    width: 1320px;
+    margin: 40px auto;
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+section h3{
+    font-size: 50px;
+    padding: 10px;
+    text-align: center;
+}
+section h3 span{
+    color: #ffad5a;
+}
+
+.box{
+    width: 31%;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+}
+.box-content{
+    padding: 20px;
+}
+.box-content img{
+    width: 40%;
+}
+.box-content h5{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.box-color-1{
+    background: #edf5f6;
+}
+.box-color-2{
+    background: #ffeeee;
+}
+.box-color-3{
+    background: #fff4d6;
+}
+
+
+
+.developer-img, .community-img{
+    background-image: url(../images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 35%;
+    float: left;
+    text-align: center;
+}
+.developer-text{
+    float: right;
+    margin-top: 5%;
+}
+.developer-text h1, .community-text h1, .corona-app-text h1{
+    font-size: 40px;
+    padding: 10px;
+}
+.developer-text p, .community-text p, .corona-app-text p{
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.developer-text a, .community-text a, .corona-app-text a{
+    margin: 10px;
+    padding: 10px 15px;
+    background: #ff5959;
+    border-radius: 8px;
+    color: #fff;
+}
+.developer-img img, .community-img img{
+    width: 60%;
+}
+
+.community-text{
+    float: left;
+    margin-top: 5%;
+    
+}
+.community-img{
+    float: right;
+    background-position: bottom right;
+    
+}
+
+.corona-app-text{
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+}
+.corona-app-img{
+    text-align: center;
+}
+.corona-app-img img{
+    width: 25%;
+}
+
+footer{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+footer h3{
+    font-size: 30px;
+    color: #fff;
+}
+footer span{
+    color: #ff5959;
+}
+footer p{
+    color: #d9dbe1;
+}
